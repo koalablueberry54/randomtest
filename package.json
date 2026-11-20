@@ -1,0 +1,15 @@
+{
+  "name": "tiny-shop",
+  "version": "1.0.0",
+  "description": "A deliberately vulnerable demo shop for trying CodeQL code scanning. Do not deploy.",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "sqlite3": "^5.1.7"
+  }
+}
